@@ -11,7 +11,7 @@ const FeaturedCourses = () => {
         </button>
       </div>
 
-      <div className="flex l gap-8 mx-4">
+      <div className="flex l flex-col md:flex-row gap-8 mx-4">
         {/* Card 1 */}
         <div className="featured-course-card flex overflow-hidden">
           <img src="images/1.jpg" alt="Course Image" className="w-1/3 object-cover" />
